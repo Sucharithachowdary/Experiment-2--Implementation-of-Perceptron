@@ -79,10 +79,10 @@ class Perceptron:
     Scatterplot:
     ![image](https://github.com/Sucharithachowdary/Experiment-2--Implementation-of-Perceptron/blob/main/opt%202%20n.jpg?raw=true)
     Y-values:
-     ![image](https://github.com/Sucharithachowdary/Experiment-2--Implementation-of-Perceptron/blob/main/opt%203%20n.jpg?raw=true)
-     Errorplot:
-      ![image](https://github.com/Sucharithachowdary/Experiment-2--Implementation-of-Perceptron/blob/main/opt%204%20n.jpg?raw=true)
-      Accuracy:
-       ![image](https://github.com/Sucharithachowdary/Experiment-2--Implementation-of-Perceptron/blob/main/opt%205%20n.jpg?raw=true)
-       ### Result:
-       Thus a perceptron for classification is implemented using python
+    ![image](https://github.com/Sucharithachowdary/Experiment-2--Implementation-of-Perceptron/blob/main/opt%203%20n.jpg?raw=true)
+    Errorplot:
+    [image](https://github.com/Sucharithachowdary/Experiment-2--Implementation-of-Perceptron/blob/main/opt%204%20n.jpg?raw=true)
+    Accuracy:
+    ![image](https://github.com/Sucharithachowdary/Experiment-2--Implementation-of-Perceptron/blob/main/opt%205%20n.jpg?raw=true)
+    ### Result:
+    Thus a perceptron for classification is implemented using python
