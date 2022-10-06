@@ -77,7 +77,7 @@ class Perceptron:
     ### output:
     ### Dataset:
     ![output](https://github.com/Sucharithachowdary/Experiment-2--Implementation-of-Perceptron/blob/main/op%201%20n.jpg?raw=true)
-    Scatterplot:
+    ### scatterplot:
     ![output](https://github.com/Sucharithachowdary/Experiment-2--Implementation-of-Perceptron/blob/main/opt%202%20n.jpg?raw=true)
     Y-values:
     ![output](https://github.com/Sucharithachowdary/Experiment-2--Implementation-of-Perceptron/blob/main/opt%203%20n.jpg?raw=true)
