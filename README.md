@@ -24,6 +24,7 @@ Indeed if the neuron output is exactly zero it cannot be assumed that the sample
 
 
 ALGORITHM:
+```
 Importing the libraries
 Importing the dataset
 Plot the data to verify the linear separable dataset and consider only two classes
@@ -43,3 +44,45 @@ Print the accuracy
 
 
  PROGRAM:
+import numpy as np 
+import pandas as pd 
+import matplotlib.pyplot as plt 
+from mpl_toolkits import mplot3d
+from sklearn.model_selection import train_test_split 
+from sklearn.metrics import accuracy_score
+class Perceptron:
+  def __init__(self, learning_rate=0.1):
+    self.learning_rate = learning_rate
+    self._b = 0.0
+    self._w = None
+    self.misclassified_samples = []
+  def fit(self, x: np.array, y: np.array, n_iter=10):
+    self._b = 0.0
+    self._w = np.zeros(x.shape[1])
+    self.misclassified_samples = []
+    for _ in range(n_iter):
+      errors = 0
+      for xi,yi in zip(x,y):
+        update = self.learning_rate * (yi-self.predict(xi))
+        self._b += update
+        self._w += update*xi
+        errors += int(update !=0)
+      self.misclassified_samples.append(errors)
+  def f(self,x:np.array) -> float:
+    return np.dot(x,self._w) + self._b
+  def predict(self, x:np.array):
+    return np.where(self.f(x) >= 0,1,-1) 
+    ```
+    ### output:
+    Dataset:
+    ![image](https://github.com/Sucharithachowdary/Experiment-2--Implementation-of-Perceptron/blob/main/op%201%20n.jpg?raw=true)
+    Scatterplot:
+    ![image](https://github.com/Sucharithachowdary/Experiment-2--Implementation-of-Perceptron/blob/main/opt%202%20n.jpg?raw=true)
+    Y-values:
+     ![image](https://github.com/Sucharithachowdary/Experiment-2--Implementation-of-Perceptron/blob/main/opt%203%20n.jpg?raw=true)
+     Errorplot:
+      ![image](https://github.com/Sucharithachowdary/Experiment-2--Implementation-of-Perceptron/blob/main/opt%204%20n.jpg?raw=true)
+      Accuracy:
+       ![image](https://github.com/Sucharithachowdary/Experiment-2--Implementation-of-Perceptron/blob/main/opt%205%20n.jpg?raw=true)
+       ### Result:
+       Thus a perceptron for classification is implemented using python
