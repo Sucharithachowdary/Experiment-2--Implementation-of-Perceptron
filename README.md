@@ -86,3 +86,6 @@ class Perceptron:
     ![output](https://github.com/Sucharithachowdary/Experiment-2--Implementation-of-Perceptron/blob/main/opt%205%20n.jpg?raw=true)
     ### Result:
     Thus a perceptron for classification is implemented using python
+    
+    
+    
