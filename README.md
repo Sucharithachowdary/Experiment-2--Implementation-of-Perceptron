@@ -75,9 +75,10 @@ class Perceptron:
     return np.where(self.f(x) >= 0,1,-1) 
     ```
     ### output:
-    ### Dataset:
+    
+    Dataset:
     ![output](https://github.com/Sucharithachowdary/Experiment-2--Implementation-of-Perceptron/blob/main/op%201%20n.jpg?raw=true)
-    ### scatterplot:
+    scatterplot:
     ![output](https://github.com/Sucharithachowdary/Experiment-2--Implementation-of-Perceptron/blob/main/opt%202%20n.jpg?raw=true)
     Y-values:
     ![output](https://github.com/Sucharithachowdary/Experiment-2--Implementation-of-Perceptron/blob/main/opt%203%20n.jpg?raw=true)
